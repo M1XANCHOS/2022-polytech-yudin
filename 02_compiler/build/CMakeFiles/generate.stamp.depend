@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/CMakeLists.txt
+C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/build/CMakeFiles/3.23.5/CMakeCCompiler.cmake
+C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/build/CMakeFiles/3.23.5/CMakeCXXCompiler.cmake
+C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/build/CMakeFiles/3.23.5/CMakeRCCompiler.cmake
+C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/build/CMakeFiles/3.23.5/CMakeSystem.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCInformation.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCXXInformation.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/CMakeGenericSystem.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/CMakeRCInformation.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/Compiler/MSVC-C.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/Compiler/MSVC-CXX.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC-C.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC-CXX.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
+G:/Program Files/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
