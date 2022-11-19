@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\M1XANCHOS\Desktop\Reposit\2022-polytech-yudin\03_cpp\intro\intro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\M1XANCHOS\Desktop\Reposit\2022-polytech-yudin\03_cpp\intro\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9EE988F8-25EA-3A33-B695-6FA8B561EDFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

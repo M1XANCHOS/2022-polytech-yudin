@@ -1,0 +1,10 @@
+^C:\USERS\M1XANCHOS\DESKTOP\REPOSIT\2022-POLYTECH-YUDIN\02_COMPILER\RESULTS\CMAKEFILES\0CA7513A1375D542D17D06CFC6860241\GENERATE.STAMP.RULE
+setlocal
+"G:\Program Files\CMake\bin\cmake.exe" -SC:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/03_cpp/intro -BC:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/results --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/results/Greeting.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

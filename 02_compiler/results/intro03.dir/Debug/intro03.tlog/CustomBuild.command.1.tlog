@@ -1,0 +1,10 @@
+^C:\USERS\M1XANCHOS\DESKTOP\REPOSIT\2022-POLYTECH-YUDIN\03_CPP\INTRO\CMAKELISTS.TXT
+setlocal
+"G:\Program Files\CMake\bin\cmake.exe" -SC:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/03_cpp/intro -BC:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/results --check-stamp-file C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/results/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
