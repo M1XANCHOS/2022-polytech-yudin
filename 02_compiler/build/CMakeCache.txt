@@ -118,7 +118,22 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=2022-polytech-yudin
+CMAKE_PROJECT_NAME:STATIC=HelloWorld
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=1.0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=rc
@@ -190,6 +205,15 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+HelloWorld_BINARY_DIR:STATIC=C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/build
+
+//Value Computed by CMake
+HelloWorld_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+HelloWorld_SOURCE_DIR:STATIC=C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler
 
 
 ########################
