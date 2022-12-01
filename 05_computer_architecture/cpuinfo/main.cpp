@@ -3,29 +3,47 @@
 #include <iostream>
 #include <thread>
 
-void get_cpuinfo(unsigned long long &total, unsigned long long &idle) {
-    char line[3];
-    std::ifstream in("/proc/stat", std::ios_base::in);
-    in >> line;
-
-    total = 0;
-    unsigned long long param;
-    for (int i = 0; i != 10; ++i)
-        if (in.is_open()) {
-            in >> param;
-            total += param;
-            if (i == 3) idle = param;
-        } else exit(0);
+void cpuinfo(long int fields[]) {
+  char line[3];
+  std::ifstream in("/proc/stat", std::ios_base::in);
+  in >> line;
+  for (int i = 0; i < 10; ++i) {
+    if (in.is_open())
+      in >> fields[i];
+    else
+      exit(0);
+  }
 }
 
 int main() {
-    unsigned long long total, total2, idle, idle2, delta_total, delta_idle;
-    get_cpuinfo(total, idle);
-    std::this_thread::sleep_for(std::chrono::milliseconds(2000));
-    get_cpuinfo(total2, idle2);
-    delta_total = total2 - total;
-    delta_idle = idle2 - idle;
-    int percent_usage = (int)(((double)(delta_total - delta_idle) / (double)delta_total) * 100);
-    std::cout << "CPU usage: " << percent_usage << "%" << std::endl;
+    long int fields[10], tick1, tick2, idle1, idle2,
+        tick, idle;
+    double cpu;
+
+    cpuinfo(fields);
+
+    tick1 = 0;
+    for (int i = 0; i < 10; i++)
+        tick1 += fields[i];
+    idle1 = fields[3]; 
+
+    std::chrono::milliseconds timespan(3000);
+    std::this_thread::sleep_for(timespan);
+
+    tick2 = tick1;
+    idle2 = idle1;
+
+    cpuinfo(fields);
+
+    tick1 = 0;
+    for (int i = 0; i < 10; i++)
+        tick1 += fields[i];
+    idle1 = fields[3];
+
+    tick = tick1 - tick2;
+    idle = idle1 - idle2;
+
+    cpu = (tick - idle) / (double)tick;
+    std::cout << "CPU: " << cpu * 100 << "%" << std::endl;
     return 0;
 }

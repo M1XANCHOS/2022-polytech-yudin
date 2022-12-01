@@ -1,6 +1,5 @@
-cmake_minimum_required(VERSION 3.16)
-project(mem05)
-
-set(CMAKE_CXX_STANDARD 14)
-
-add_executable(mem05 main.cpp)
+cmake_minimum_required(VERSION 3.1...3.24)
+project(Meminfo
+        VERSION 1.0
+        LANGUAGES CXX)
+add_executable(main main.cpp)
