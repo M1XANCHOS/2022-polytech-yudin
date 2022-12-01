@@ -1,3 +1,0 @@
-C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/results/CMakeFiles/greeting.dir
-C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/results/CMakeFiles/ALL_BUILD.dir
-C:/Users/M1XANCHOS/Desktop/Reposit/2022-polytech-yudin/02_compiler/results/CMakeFiles/ZERO_CHECK.dir
